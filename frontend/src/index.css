@@ -6,3 +6,14 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+
+/* Dark Mode */
+
+#dark {
+  background-color: #1e3344;
+  color: #f4eee0;
+  position: relative;
+  overflow: hidden;
+  transition: ease-in 0.5s;
+}

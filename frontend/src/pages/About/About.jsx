@@ -1,11 +1,13 @@
 import React from 'react'
 import './About.css'
 import Pic from '../../images/profile.png'
+import Jump from "react-reveal/Jump";
 
 const About = () => {
   return (
    <>
-   <div className="about">
+   <Jump>
+   <div className="about" id='about'>
     <div className="row">
         <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
             <img src={Pic} alt="my-pic" />
@@ -16,6 +18,7 @@ const About = () => {
         </div>
     </div>
    </div>
+   </Jump>
    </>
   )
 }

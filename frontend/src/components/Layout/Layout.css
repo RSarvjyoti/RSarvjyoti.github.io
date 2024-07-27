@@ -34,6 +34,12 @@
     background-color: #282828 ;
 }
 
+/* Mobile Veiw */
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}
 
 /* #ffa116 
 #282828 : sidebar

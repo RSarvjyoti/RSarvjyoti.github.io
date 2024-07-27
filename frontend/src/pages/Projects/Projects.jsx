@@ -6,6 +6,7 @@ import artifyHub from '../../assets/images/ArtifyHub.png'
 import travalTrakkers from '../../assets/images/TravalTrakker.png'
 import frankAndOak from '../../assets/images/FrankAndOak.png'
 import bewakoof from '../../assets/images/Bewakoof.png'
+import Jump from "react-reveal/Jump";
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
         <div className="row g-4" id="ads">
 
             {/* Project 1 */}
-
+            <Jump>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -129,7 +130,7 @@ const Projects = () => {
                   <div className='btn-group'>
                   <a
                     className="ad-btn"
-                    href="https://github.com/RSarvjyoti/Behance"
+                    href="https://66a4b28c9788dce6781962d2--artifyhub.netlify.app/"
                   >
                     Go Live
                   </a>
@@ -143,10 +144,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-
-
+            </Jump>
             {/* Project 4 */}
-
+            <Jump>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -267,7 +267,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-
+            </Jump>
 
         </div>
       </div>

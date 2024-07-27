@@ -1,20 +1,25 @@
 import React from 'react'
 import './Skills.css'
 import { TechList } from '../../utils/TechList'
+import RubberBand from "react-reveal/RubberBand";
+import Fade from "react-reveal/Fade";
 
 const Skills = () => {
   return (
     <>
-    <div className="container techstack">
+    <div className="techstack"  id='skill'>
+        <RubberBand>
         <h2 className='col-12 mt-3 md-1 text-center text-uppercase'>Skills</h2>
         <hr />
         <p className='pb-3 text-center '>
          👉 Including programming Languages, Frameworks, Databases, Frontend, Backend, APIs, Tools, Testing, etc.
         </p>
+        </RubberBand>
         <div className="row">
         {
             TechList.map((tech) =>(
-                <div key={tech.id} className="col-md-3">
+                <Fade left>
+                <div key={tech._id} className="col-md-3">
                     <div className="card m-2">
                         <div className="card-content">
                             <div className="card-body">
@@ -30,6 +35,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                </Fade>
             ))
         }
     </div>
