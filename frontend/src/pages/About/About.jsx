@@ -14,7 +14,13 @@ const About = () => {
         </div>
         <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
             <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic earum quibusdam dolorum quo repudiandae non obcaecati, deserunt tenetur beatae doloremque commodi suscipit pariatur mollitia eveniet neque cupiditate, ducimus aspernatur consectetur? Aspernatur fugit sapiente sequi provident cum accusamus maiores amet velit, voluptatibus nobis! Quod laboriosam deleniti impedit facilis exercitationem. Dolorem, eius ipsa. Ab, quia ipsam. Minima, nihil molestias qui dolor esse inventore dolorum consectetur illo voluptatem quam quos sed similique repellendus id voluptatum veniam maiores quod saepe quia explicabo voluptas. Neque ipsum doloremque magnam, consequuntur temporibus quia dolor recusandae tempore aliquam. At corporis tenetur eius deleniti consectetur repellat quae vero.</p>
+            <p>
+            Hello! I'm Sarvjyoti, and I completed my Diploma in Information Technology from BTEUP in 2023. As an aspiring MERN stack developer at Masai School, I've built a solid foundation in web development through projects like a personal portfolio website, an E-commerce app, and a real-time Code editor(Code Craffter). I am skilled in Java, JavaScript, React, Node.js, Express.js, Mysql and  MongoDB.
+            Passionate about problem-solving, I've solved over 100 DSA problems on LeetCode and more than 700 on the Masai OJ platform. In my free time, I enjoy cooking and playing badminton. I also love exploring new technologies and working collaboratively.
+            I am excited to contribute to innovative projects and grow my skills. Feel free to explore my portfolio or connect with me .
+            Thank you for visiting my portfolio!
+
+            </p>
         </div>
     </div>
    </div>
